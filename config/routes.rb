@@ -1,4 +1,6 @@
 LeadCreator::Application.routes.draw do
+  get "leads/new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
