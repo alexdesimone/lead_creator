@@ -5,10 +5,12 @@ gem 'rails', '3.2.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'pg', '0.14.0'
 gem 'therubyracer'
 gem 'databasedotcom'
 gem 'databasedotcom-rails'
+gem 'bootstrap-sass', '2.0.0'
+
 
 group :development, :test do
   gem 'rspec-rails', '2.10.0'
