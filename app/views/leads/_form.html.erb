@@ -1,0 +1,21 @@
+<%= form_for(@lead) do |f| %>
+  <div class="fields">
+    <%= f.label :FirstName, "First Name" %>
+    <%= f.text_field :FirstName %>
+  </div>
+  <div class="fields">
+    <%= f.label :LastName, "Last Name" %>
+    <%= f.text_field :LastName %>
+  </div>
+  <div class="fields">
+    <%= f.label :Company %>
+    <%= f.text_field :Company %>
+  </div>
+  <div class="fields">
+    <%= f.label :Email %>
+    <%= f.text_field :Email %>
+  </div>
+  <div>
+    <%= f.submit "Create Lead", class: "btn btn-large btn-primary" %>
+  </div>
+<% end %>
