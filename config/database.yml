@@ -17,7 +17,7 @@ development:
   encoding: unicode
   database: lead_creator_development
   pool: 5
-  username: lead_creator
+  username: alexdesimone
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -43,13 +43,13 @@ test:
   encoding: unicode
   database: lead_creator_test
   pool: 5
-  username: lead_creator
+  username: alexdesimone
   password:
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: lead_creator_production
-  pool: 5
-  username: lead_creator
-  password:
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: lead_creator_production
+#   pool: 5
+#   username: lead_creator
+#   password:
