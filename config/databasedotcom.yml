@@ -1,11 +1,6 @@
-# Production
-# client_id: 3MVG9y6x0357HledZQgj1XEr5IhuOthmeotwXgUu72ENiZmZ59AKZCnQI6GKrsXDMBpYSC5atDb5i0zeU_5Uq
-# client_secret: 587466380964984175
-# Development
-client_id: 3MVG9y6x0357HledZQgj1XEr5IjQNBDKHMquHyR9f8zYtqOPrGmWDh1MXN1g4iaWPxYX7M5lFOx8jmgMrTvpp
-client_secret: 6775663553271484863
+client_id: 3MVG9y6x0357HledZQgj1XEr5IilzYK68ewOkmN9bgVxZtyMlDY8_QqVB_Fg9GqK7.SQjoXD5fsBqF49nDHLR
+client_secret: 3725793166232094938
 username: alex@sales4startups.org
 password: Fifa4Life9g0vnr1CXoEXWcRgPFYHfzpPH
-# client.authenticate request.env['omniauth.auth']  #=> "the-oauth-token"
 host: login.salesforce.com
 debugging: true
