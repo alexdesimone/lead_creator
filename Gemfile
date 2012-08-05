@@ -10,6 +10,11 @@ gem 'therubyracer'
 gem 'databasedotcom'
 gem 'databasedotcom-rails'
 gem 'bootstrap-sass', '2.0.0'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-salesforce'
+gem 'devise'
+gem 'nifty-generators'
 
 
 group :development, :test do
